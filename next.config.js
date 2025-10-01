@@ -1,10 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: "export",
-  basePath: "/lgTechnologies",   // repo name
-  assetPrefix: "/lgTechnologies", // assets ke liye bhi repo prefix
+  basePath: "/lgTechnologies",      // 👈 repo ka naam
+  assetPrefix: "/lgTechnologies/",  // 👈 trailing slash important hai
+  trailingSlash: true,              // 👈 static export ke liye zaroori hai
   images: {
-    unoptimized: true, 
+    unoptimized: true,
     domains: ["localhost"],
     remotePatterns: [
       {
