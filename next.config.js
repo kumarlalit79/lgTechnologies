@@ -1,8 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: "export",   // static export ke liye
+  output: "export",
+  basePath: "/lgTechnologies",   // repo name
+  assetPrefix: "/lgTechnologies", // assets ke liye bhi repo prefix
   images: {
-    unoptimized: true, // Next Image optimization disable (GitHub Pages me nahi chalta)
+    unoptimized: true, 
     domains: ["localhost"],
     remotePatterns: [
       {
@@ -12,8 +14,6 @@ const nextConfig = {
       },
     ],
   },
-  basePath: "/lgTechnologies",   // 👈 repo name dalna zaroori hai
-  assetPrefix: "/lgTechnologies",
 };
 
 module.exports = nextConfig;
