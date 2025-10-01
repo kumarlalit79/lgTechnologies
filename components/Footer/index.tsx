@@ -31,8 +31,8 @@ const Footer = () => {
                   /> */}
 
                   <Image
-                  // src={`${process.env.NEXT_PUBLIC_BASE_PATH}/images/logo/myLogoFull.png`}
-                  src="/images/logo/myLogoFull.png"
+                  src={`${process.env.NEXT_PUBLIC_BASE_PATH}/images/logo/myLogoFull.png`}
+                  // src="/images/logo/myLogoFull.png"
                   alt="logo"
                   width={150}
                   height={150}

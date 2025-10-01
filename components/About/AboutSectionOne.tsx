@@ -55,15 +55,15 @@ const AboutSectionOne = () => {
                 data-wow-delay=".2s"
               >
                 <Image
-                  // src={`${process.env.NEXT_PUBLIC_BASE_PATH}/images/about/about-image.svg`}
-                  src="/images/about/about-image.svg"
+                  src={`${process.env.NEXT_PUBLIC_BASE_PATH}/images/about/about-image.svg`}
+                  // src="/images/about/about-image.svg"
                   alt="about-image"
                   fill
                   className="drop-shadow-three mx-auto max-w-full dark:hidden dark:drop-shadow-none lg:mr-0"
                 />
                 <Image
-                  // src={`${process.env.NEXT_PUBLIC_BASE_PATH}/images/about/about-image-dark.svg`}
-                  src="/images/about/about-image-dark.svg"
+                  src={`${process.env.NEXT_PUBLIC_BASE_PATH}/images/about/about-image-dark.svg`}
+                  // src="/images/about/about-image-dark.svg"
                   alt="about-image"
                   fill
                   className="drop-shadow-three mx-auto hidden max-w-full dark:block dark:drop-shadow-none lg:mr-0"

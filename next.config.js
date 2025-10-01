@@ -1,9 +1,11 @@
 /** @type {import('next').NextConfig} */
+const isProd = process.env.NODE_ENV === "production";
+
 const nextConfig = {
   output: "export",
-  basePath: "/lgTechnologies",      // 👈 repo ka naam
-  assetPrefix: "/lgTechnologies/",  // 👈 trailing slash important hai
-  trailingSlash: true,              // 👈 static export ke liye zaroori hai
+  basePath: isProd ? "/lgTechnologies" : "",
+  assetPrefix: isProd ? "/lgTechnologies/" : "",
+  trailingSlash: true,
   images: {
     unoptimized: true,
     domains: ["localhost"],

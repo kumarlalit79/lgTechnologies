@@ -11,15 +11,15 @@ const AboutSectionTwo = () => {
               data-wow-delay=".15s"
             >
               <Image
-                src="/images/about/about-image-2.svg"
-                // src={`${process.env.NEXT_PUBLIC_BASE_PATH}/images/about/about-image-2.svg`}
+                // src="/images/about/about-image-2.svg"
+                src={`${process.env.NEXT_PUBLIC_BASE_PATH}/images/about/about-image-2.svg`}
                 alt="about image"
                 fill
                 className="drop-shadow-three dark:hidden dark:drop-shadow-none"
               />
               <Image
-                // src={`${process.env.NEXT_PUBLIC_BASE_PATH}/images/about/about-image-2-dark.svg`}
-                src="/images/about/about-image-2-dark.svg"
+                src={`${process.env.NEXT_PUBLIC_BASE_PATH}/images/about/about-image-2-dark.svg`}
+                // src="/images/about/about-image-2-dark.svg"
                 alt="about image"
                 fill
                 className="drop-shadow-three hidden dark:block dark:drop-shadow-none"

@@ -27,8 +27,8 @@ const Video = () => {
             >
               <div className="relative aspect-[16/9] items-center justify-center">
                 <Image 
-                  // src={`${process.env.NEXT_PUBLIC_BASE_PATH}/images/hero/discuss.jpg`}
-                  src="/images/hero/discuss.jpg" 
+                  src={`${process.env.NEXT_PUBLIC_BASE_PATH}/images/hero/discuss.jpg`}
+                  // src="/images/hero/discuss.jpg" 
                   alt="banner image"
                   width={1200}
                   height={600}
