@@ -10,7 +10,6 @@ const nextConfig = {
       },
     ],
   },
-  output: 'export', // yaha add karo
 };
 
 module.exports = nextConfig;
