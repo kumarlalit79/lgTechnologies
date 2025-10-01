@@ -111,7 +111,8 @@ const Footer = () => {
                 <ul>
                   <li>
                     <a
-                      href="/blog"
+                      // href="/blog"
+                      href={`${process.env.NEXT_PUBLIC_BASE_PATH}/blog`}
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
                       Projects
@@ -127,7 +128,8 @@ const Footer = () => {
                   </li> */}
                   <li>
                     <a
-                      href="/about"
+                      href={`${process.env.NEXT_PUBLIC_BASE_PATH}/about`}
+                      // href="/about"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
                       About
@@ -179,7 +181,8 @@ const Footer = () => {
                 <ul>
                   <li>
                     <a
-                      href="/contact"
+                      // href="/contact"
+                      href={`${process.env.NEXT_PUBLIC_BASE_PATH}/contact`}
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
                       Open Support Ticket
