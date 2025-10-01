@@ -32,6 +32,7 @@ const BlogDetailsPage = () => {
                             src={`${process.env.NEXT_PUBLIC_BASE_PATH}/images/blog/author-02.png`}
                             alt="author"
                             fill
+                            unoptimized 
                           />
                         </div>
                       </div>
