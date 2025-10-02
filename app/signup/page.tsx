@@ -3,9 +3,9 @@ import Link from "next/link";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Sign Up Page | Free Next.js Template for Startup and SaaS",
-  description: "This is Sign Up Page for Startup Nextjs Template",
-  // other metadata
+  title: "L&G Technologies | Innovative Web Solutions",
+  description: "L&G Technologies provides custom web apps, Softwares, Websites , and startup SaaS solutions.",
+
 };
 
 const SignupPage = () => {

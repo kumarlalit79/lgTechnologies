@@ -6,9 +6,9 @@ import TechStack from "../techstack/page";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Service Page | Free Next.js Template for Startup and SaaS",
-  description: "This is Blog Page for Startup Nextjs Template",
-  // other metadata
+  title: "L&G Technologies | Innovative Web Solutions",
+  description: "L&G Technologies provides custom web apps, Softwares, Websites , and startup SaaS solutions.",
+
 };
 
 const Blog = () => {
