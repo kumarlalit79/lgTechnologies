@@ -48,6 +48,7 @@ const Footer = () => {
                     href="https://www.facebook.com/lg.technologies25"
                     aria-label="social-link"
                     target="_blank"
+                    rel="noreferrer"
                     className="mr-6 text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                   >
                     <svg
@@ -63,6 +64,7 @@ const Footer = () => {
                     href="https://www.instagram.com/lgtechnologies_?igsh=Y2g2bHRpZ3R3eTg1"
                     aria-label="instagram"
                     target="_blank"
+                    rel="noreferrer"
                     className="mr-6 text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                   >
                     <svg
